@@ -172,9 +172,9 @@ body {
   display: flex;
 }
 .steviepropo{
-  width: 700px;
-  margin-trim: 20px;
-  margin-top: 20px;
+ margin-top: 20px;
+  display: flex;
+  margin: 20px;
 }
 .steviecontact{
   background-color: rgb(241, 233, 233);
