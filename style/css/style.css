@@ -756,4 +756,5 @@ body {
   height: 200px;
   width: 100%;
   margin-top: 100px;
+  display: flex;
 }
