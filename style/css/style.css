@@ -208,46 +208,8 @@ body {
   height: 35px;
 }
 
-
-
-.navbar .dropdown ul a i {
-  font-size: 12px;
-}
-
-.navbar .dropdown ul a:hover,
-.navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
-  color: #cda45e;
-}
-
-.navbar .dropdown:hover>ul {
-    opacity: 1;
-    top: 100%;
-    visibility: visible;
-  }
   
-  .navbar .dropdown .dropdown ul {
-    top: 0;
-    left: calc(100% - 30px);
-    visibility: hidden;
-  }
-  
-  .navbar .dropdown .dropdown:hover>ul {
-    opacity: 1;
-    top: 0;
-    left: 100%;
-    visibility: visible;
-  }
-  
-  @media (max-width: 1366px) {
-    .navbar .dropdown .dropdown ul {
-      left: -90%;
-    }
-  
-    .navbar .dropdown .dropdown:hover>ul {
-      left: -100%;
-    }
-  }
+ 
   
   #hero {
     width: 100%;
@@ -600,50 +562,7 @@ body {
 .ser{
     display: flex;
 }
-.rectangle{
-    width: 400px;
-    height: 600px;
-    margin: 40px;
-    margin-right: 50px;
-}
-.rectangle1 {
-    background-color: #D9D9D9;
-    height: 500px;
-    border-radius: 10px;
-  }
- 
-  .info{
-    text-align: center;
-    background-color: blue;
-    margin-top: auto;
-    height: 50px;
-    color: white;
-  }
- 
-  .t1{
-    text-align: center;
-    font-size: 25px;
-  }
-  .t2{
-    text-align: center;
-    font-size: 25px;
-  }
-  .t3{
-    text-align: center;
-    font-size: 25px;
-  }
-  .cont{
-    background-color: gray;
-    display: flex;
-   
-  }
 
-  .d{
-    background-color: green;
-    border-radius: 10px;
-    margin: 20px;
-    
-  }
 
  .card-title{
   color: black;
@@ -680,15 +599,16 @@ body {
 }
 
 #footer {
-  background: black;
+  background: rgb(255, 123, 0);
   padding: 0 0 30px 0;
   color: #fff;
   font-size: 14px;
+
 }
 
 #footer .footer-top {
-  background: #0c0b09;
-  border-top: 1px solid #37332a;
+  background: rgb(255, 115, 0);
+  border-top: 1px solid rgb(255, 123, 0);
   border-bottom: 1px solid #28251f;
   padding: 60px 0 30px 0;
 }
@@ -784,18 +704,18 @@ body {
 
 #footer .footer-top .footer-newsletter form {
   margin-top: 30px;
-  background: #28251f;
+  background: rgb(197, 119, 47);
   padding: 6px 10px;
   position: relative;
   border-radius: 50px;
-  border: 1px solid #454035;
+  border: 1px solid rgb(197, 119, 47);
 }
 
 #footer .footer-top .footer-newsletter form input[type=email] {
-  border: 0;
+  border: orange;
   padding: 4px;
   width: calc(100% - 110px);
-  background: #28251f;
+  background: rgb(197, 119, 47);
   color: white;
 }
 
@@ -808,8 +728,8 @@ body {
   background: none;
   font-size: 16px;
   padding: 0 20px 2px 20px;
-  background: #cda45e;
-  color: #fff;
+  background: #eceae6;
+  color: rgb(12, 9, 9);
   transition: 0.3s;
   border-radius: 50px;
 }
