@@ -171,35 +171,35 @@ body {
 .navbar a:focus {
   display: flex;
 }
-.propo{
+.steviepropo{
   width: 700px;
   margin-right: 20px;
   margin-top: 20px;
 }
-.contact{
+.steviecontact{
   background-color: rgb(241, 233, 233);
   padding: 15px;
   width: 50%;
   margin-top: 20px;
 }
 
-.champ{
+.steviechamp{
   width: 48%;
   height: 20px;
   border: 1px solid rgb(255, 115, 0);
 }
 
-.sujet{
+.steviesujet{
   width: 98%;
   height: 20px;
   margin-top: 15px;
   border: 1px solid rgb(255, 115, 0);
 }
-.message{
+.steviemessage{
   border: 1px solid rgb(255, 115, 0);  
 }
 
-.button{
+.steviebutton{
   position: relative;
   left: 250px;
   background-color: rgb(255, 115, 0);
