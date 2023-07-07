@@ -759,6 +759,7 @@ body {
   display: flex;
 }
 
+<<<<<<< HEAD
 
 
 
@@ -886,3 +887,9 @@ body {
 .book-a-table .php-email-form button[type=submit]:hover {
   background: rgb(255, 115, 0);
 }
+=======
+.ahchamp{
+  border-color: rgb(255, 115, 0);
+  border-radius: 10px;
+}
+>>>>>>> 24698ee5dca887b85b315ef97474a65b9a018a15
