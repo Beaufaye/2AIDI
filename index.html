@@ -510,27 +510,97 @@ et de formation au monde et c'est notre mission.
     </div>
    </section>
 
-   
+   <section>
 
-
-
-   <div class="steviecontact">
+    <div class="rect">
+  
+      <img style="margin-left: 300px; width: 15%;" src="Image/logo_iphone_orange-removebg-preview.png" alt="">  
     
-    <form action="">
-        <div>
-            <input class="steviechamp" type="text" placeholder="Votre nom">
-            <input class="steviechamp" type="email" placeholder="votre e-mail">
+      <div>
+      <h3 style="text-align: center; margin-top: 60px; font-style: italic; color: white;">Besoin de parler?</h3>
+      <button style="background-color: rgb(84, 80, 80); border-color: rgb(84, 80, 80); font-weight: bold; font-size: 40px;" class="btn btn-primary" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasBottom" aria-controls="offcanvasBottom">CONTACTEZ-NOUS</button>
+
+      <div style="height: 600px;" class="offcanvas offcanvas-bottom" tabindex="-1" id="offcanvasBottom" aria-labelledby="offcanvasBottomLabel">
+        <div class="offcanvas-header">
+          <h5 style="color: black;" class="offcanvas-title" id="offcanvasBottomLabel"></h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
         </div>
-       
-        <div>
-            <input class="steviesujet" type="text" placeholder="Sujet">
-        </div>
-        <div  style="margin-top: 25px;">
-            <textarea class="steviemessage" style="width: 98%;" name="message" id="" cols="30" rows="10" placeholder="Votre Message ici"></textarea>
-        </div>
-        <button class="steviebutton">Envoyer le message</button>
-    </form>
-</div>
+        <div class="offcanvas-body small">
+          <section id="contact" class="contact">
+    
+  
+   
+  
+            <div class="row mt-5">
+        
+              <div class="col-lg-4">
+                <div class="info">
+                  <div class="address">
+                    
+                    <h4 class="stevieco">Localisation</h4>
+                    <p class="steviepp">9FGX+HR9 Ouagadougou</p>
+                  </div>
+        
+                  <div class="open-hours">
+                   
+                    <h4 class="stevieco">Heure d'ouverture</h4>
+                    <p class="steviepp">
+                      Du lundi au vendredi:<br>
+                      de 8h à 16h
+                    </p>
+                  </div>
+        
+                  <div class="email">
+                    
+                    <h4 class="stevieco">Email:</h4>
+                    <p class="steviepp">2AIDI@gmail.com</p>
+                  </div>
+        
+                  <div class="phone">
+                   
+                    <h4 class="stevieco">Appel:</h4>
+                    <p class="steviepp">0022676407417</p>
+                  </div>
+        
+                </div>
+        
+              </div>
+        
+              <div class="col-lg-8 mt-5 mt-lg-0">
+        
+                <form action="forms/contact.php" method="post" role="form" class="php-email-form">
+                  <div class="row">
+                    <div class="col-md-6 form-group">
+                      <input type="text" name="name" class="form-control" id="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="col-md-6 form-group mt-3 mt-md-0">
+                      <input type="email" class="form-control" name="email" id="email" placeholder="Votre E-mail" required>
+                    </div>
+                  </div>
+                  <div class="form-group mt-3">
+                    <input type="text" class="form-control" name="subject" id="subject" placeholder="Sujet" required>
+                  </div>
+                  <div class="form-group mt-3">
+                    <textarea class="form-control" name="message" rows="8" placeholder="Message" required></textarea>
+                  </div>
+                  <div class="my-3">
+                    <div class="loading">Loading</div>
+                    <div class="error-message"></div>
+                    <div class="sent-message">Votre Message a été envoyé. Merci!</div>
+                  </div>
+                  <div class="text-center"><button type="submit">Envoyer le Message</button></div>
+                </form>
+        
+              </div>
+        
+            </div>
+    </div>
+    </div>
+   </section>
+
+
+
+   
 
 <script src="style/js/bootstrap.bundle.js"></script>
 <script src="style/js/bootstrap.bundle.min.js"></script>
@@ -539,26 +609,21 @@ et de formation au monde et c'est notre mission.
 <script src="style/js/bootstrap.js"></script>
 <script src="style/js/bootstrap.min.js"></script>
 
-    <section>
-      <div class="contact">
-        <h2 style="text-align: center;">Contactez-nous</h2>
-        <form action="">
-            <div>
-                <input class="champ" type="text" placeholder="Votre nom">
-            </div>
-            <div style="margin-top: 15px;">
-                <input class="champ" type="email" placeholder="Votre e-mail">
-            </div>
-            <div>
-                <input class="sujet" type="text" placeholder="Sujet">
-            </div>
-            <div style="margin-top: 15px;">
-                <textarea style="width: 98%;" name="message" id="" cols="30" rows="10" placeholder="Votre Message ici"></textarea>
-            </div>
-            <button>Envoyer</button>
-        </form>
+   
+
+
+    
+      
+   
+      
+      </div>
     </div>
-    </section>
+
+
+
+
+
+
 
         <footer id="footer">
           <div class="footer-top">
