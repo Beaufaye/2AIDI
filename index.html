@@ -450,6 +450,7 @@
     </div>
 </section>
    <div class="steviecontact">
+    
     <form action="">
         <div>
             <input class="steviechamp" type="text" placeholder="Votre nom">
@@ -473,7 +474,35 @@
 <script src="style/js/bootstrap.js"></script>
 <script src="style/js/bootstrap.min.js"></script>
 
-         
+<div class="offcanvas offcanvas-start" data-bs-scroll="true" data-bs-backdrop="false" tabindex="-1" id="offcanvasScrolling" aria-labelledby="offcanvasScrollingLabel">
+  <div class="offcanvas-header">
+    <h5 class="offcanvas-title" id="offcanvasScrollingLabel"></h5>
+    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+  </div>
+  <div class="offcanvas-body">
+    <h2> Contactez-nous</h2>
+
+    <p></p><div class="contact">
+      <h2 style="text-align: center;">Contactez-nous</h2>
+      <form action="">
+          <div>
+              <input class="champ" type="text" placeholder="Nom">
+              <input class="champ" type="text" placeholder="Prénom">
+          </div>
+          <div style="margin-top: 15px;">
+              <input class="champ" type="text" placeholder="Ville">
+              <input class="champ" type="email" placeholder="Email">
+          </div>
+          <div>
+              <input class="sujet" type="text" placeholder="Sujet">
+          </div>
+          <div style="margin-top: 15px;">
+              <textarea style="width: 98%;" name="message" id="" cols="30" rows="10" placeholder="Votre Message ici"></textarea>
+          </div>
+          <button>Envoyer</button>
+      </form>
+  </div>
+
 
         <footer id="footer">
           <div class="footer-top">
