@@ -594,6 +594,7 @@ body {
  .img-fluid{
   width: 200%;
   height: 500px;
+  border-radius: 25px;
  }
 
 .img-fluide{
@@ -750,4 +751,12 @@ body {
   text-align: center;
   font-size: 13px;
   color: #fff;
+}
+
+.rect{
+  background-color: rgb(84, 80, 80);
+  height: 200px;
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
 }
